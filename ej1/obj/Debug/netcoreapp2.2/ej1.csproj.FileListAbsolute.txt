@@ -1,0 +1,11 @@
+/home/agustin/lagash/ej1/bin/Debug/netcoreapp2.2/ej1.deps.json
+/home/agustin/lagash/ej1/bin/Debug/netcoreapp2.2/ej1.runtimeconfig.json
+/home/agustin/lagash/ej1/bin/Debug/netcoreapp2.2/ej1.runtimeconfig.dev.json
+/home/agustin/lagash/ej1/bin/Debug/netcoreapp2.2/ej1.dll
+/home/agustin/lagash/ej1/bin/Debug/netcoreapp2.2/ej1.pdb
+/home/agustin/lagash/ej1/obj/Debug/netcoreapp2.2/ej1.csprojAssemblyReference.cache
+/home/agustin/lagash/ej1/obj/Debug/netcoreapp2.2/ej1.csproj.CoreCompileInputs.cache
+/home/agustin/lagash/ej1/obj/Debug/netcoreapp2.2/ej1.AssemblyInfoInputs.cache
+/home/agustin/lagash/ej1/obj/Debug/netcoreapp2.2/ej1.AssemblyInfo.cs
+/home/agustin/lagash/ej1/obj/Debug/netcoreapp2.2/ej1.dll
+/home/agustin/lagash/ej1/obj/Debug/netcoreapp2.2/ej1.pdb

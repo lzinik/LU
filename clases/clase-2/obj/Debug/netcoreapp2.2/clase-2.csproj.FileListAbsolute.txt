@@ -1,0 +1,11 @@
+/home/lzinik/Lagash/LU/clases/clase-2/bin/Debug/netcoreapp2.2/clase-2.deps.json
+/home/lzinik/Lagash/LU/clases/clase-2/bin/Debug/netcoreapp2.2/clase-2.runtimeconfig.json
+/home/lzinik/Lagash/LU/clases/clase-2/bin/Debug/netcoreapp2.2/clase-2.runtimeconfig.dev.json
+/home/lzinik/Lagash/LU/clases/clase-2/bin/Debug/netcoreapp2.2/clase-2.dll
+/home/lzinik/Lagash/LU/clases/clase-2/bin/Debug/netcoreapp2.2/clase-2.pdb
+/home/lzinik/Lagash/LU/clases/clase-2/obj/Debug/netcoreapp2.2/clase-2.csprojAssemblyReference.cache
+/home/lzinik/Lagash/LU/clases/clase-2/obj/Debug/netcoreapp2.2/clase-2.csproj.CoreCompileInputs.cache
+/home/lzinik/Lagash/LU/clases/clase-2/obj/Debug/netcoreapp2.2/clase-2.AssemblyInfoInputs.cache
+/home/lzinik/Lagash/LU/clases/clase-2/obj/Debug/netcoreapp2.2/clase-2.AssemblyInfo.cs
+/home/lzinik/Lagash/LU/clases/clase-2/obj/Debug/netcoreapp2.2/clase-2.dll
+/home/lzinik/Lagash/LU/clases/clase-2/obj/Debug/netcoreapp2.2/clase-2.pdb

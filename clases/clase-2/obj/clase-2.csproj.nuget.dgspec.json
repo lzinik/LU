@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/lzinik/Lagash/LU-classes/clase-2/clase-2.csproj": {}
+    "/home/lzinik/Lagash/LU/clases/clase-2/clase-2.csproj": {}
   },
   "projects": {
-    "/home/lzinik/Lagash/LU-classes/clase-2/clase-2.csproj": {
+    "/home/lzinik/Lagash/LU/clases/clase-2/clase-2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/lzinik/Lagash/LU-classes/clase-2/clase-2.csproj",
+        "projectUniqueName": "/home/lzinik/Lagash/LU/clases/clase-2/clase-2.csproj",
         "projectName": "clase-2",
-        "projectPath": "/home/lzinik/Lagash/LU-classes/clase-2/clase-2.csproj",
+        "projectPath": "/home/lzinik/Lagash/LU/clases/clase-2/clase-2.csproj",
         "packagesPath": "/home/lzinik/.nuget/packages/",
-        "outputPath": "/home/lzinik/Lagash/LU-classes/clase-2/obj/",
+        "outputPath": "/home/lzinik/Lagash/LU/clases/clase-2/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"

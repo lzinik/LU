@@ -2,11 +2,16 @@
 
 namespace clase_2
 {
+    enum TipoEmpleado {
+        Empleado, LU, Contratado
+    }
     struct Persona
     {
         public string Nombre;
         public string Apellido;
         public long Sueldo;
+
+        public TipoEmpleado Tipo;
     }
 
     class Program
@@ -42,19 +47,23 @@ namespace clase_2
             ImprimirSiEsPar(transferencia);
             Console.WriteLine("Monto: " + transferencia);
 
-            Persona persona = new Persona();
-            persona.Nombre = "Luciano";
-            persona.Apellido = "Zinik";
-            persona.Sueldo = 100;
+            Persona p = new Persona();
+            p.Nombre = "Luciano";
+            p.Apellido = "Zinik";
+            p.Sueldo = 100;
+            p.Tipo = TipoEmpleado.LU;
 
-            var otraPersona = new Persona{
+            var otraP = new Persona{
                 Nombre = "Luciano",
                 Apellido = "Zinik",
-                Sueldo = 100
+                Sueldo = 100,
+                Tipo = TipoEmpleado.LU
             };
+            ImprimirPersona(p);
 
-            ImprimirPersona(persona);
+            if (otraP.Tipo == TipoEmpleado.Contratado){
 
+            }
 
         }
     }

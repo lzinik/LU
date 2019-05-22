@@ -29,9 +29,78 @@ namespace clase_2
         static int Suma(int a, int b){
             return a + b;
         }
+        
+        static int Suma(int a, int b, int c){
+            return a + b + c;
+        }
+
+        static double Suma(double a, double b, double c){
+            return a + b + c;
+        }
+
+        static int Suma(params int[] a){ //Se utiliza params
+            int suma = 0;
+            for ( int idx = 0; idx < a.Length; idx++)
+            {
+                suma += a[idx];
+            }
+            return suma;
+        }
+
+        static int HacerAlgo(int a, int b, out int capricho)
+        {
+            capricho = 0;
+            return 0;
+        }
+
+        static int Sumatoria(int numero)
+        {
+            // Usando ternario
+            return (numero == 0) ? 0 : numero + Sumatoria(numero-1);
+
+            // Usando if
+            //if(numero == 0)
+            //{
+            //    return 0;
+            //} else {
+            //    return numero + Sumatoria(numero - 1);
+            //}
+
+            // Iterando
+            //int sumatoria = 0;
+            //for (int num = numero; num != 0; num--)
+            //{
+            //   sumatoria += num;
+            //}
+            //return sumatoria;
+        }
+
+        static int Division(int a, int b){
+            
+            // Iteracion
+            //int div = 0;
+            //for (int i = b; i < a; i+=b)
+            //{
+            //   div++;
+            //}
+            //return div;
+
+            // Recursivo
+            return (a > b) ? Division(a-b, b) + 1 : 0;
+        }
 
         static void Main(string[] args)
         {
+            // Ejercicio para el hogar
+            // Hacer una funcion Division()
+            // que divida dos numeros enteros
+            // SIN USAR EL OPERADOR /
+            // Un hongo -> con una iteracion
+            // Dos hongos -> recursivo
+
+            Console.WriteLine(5 / 2);
+
+
             int sueldo = 101;
             int empleados = 4;
             int transferencia;
@@ -40,6 +109,11 @@ namespace clase_2
             transferencia = sueldo * empleados;
 
             int c = Suma(1, Suma(2, 3));
+            
+            int cap;
+            var r = HacerAlgo(1, 2, out cap);
+
+            var sumatoria = Sumatoria(3);
 
             ImprimirSiEsPar(1);
             ImprimirSiEsPar(2);

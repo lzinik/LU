@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lzini\\Lagash\\LU\\clases\\clase-2\\clase-2.csproj": {}
+    "C:\\Users\\lzini\\Lagash\\LU\\clases\\clase-3\\clase-3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lzini\\Lagash\\LU\\clases\\clase-2\\clase-2.csproj": {
+    "C:\\Users\\lzini\\Lagash\\LU\\clases\\clase-3\\clase-3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lzini\\Lagash\\LU\\clases\\clase-2\\clase-2.csproj",
-        "projectName": "clase-2",
-        "projectPath": "C:\\Users\\lzini\\Lagash\\LU\\clases\\clase-2\\clase-2.csproj",
+        "projectUniqueName": "C:\\Users\\lzini\\Lagash\\LU\\clases\\clase-3\\clase-3.csproj",
+        "projectName": "clase-3",
+        "projectPath": "C:\\Users\\lzini\\Lagash\\LU\\clases\\clase-3\\clase-3.csproj",
         "packagesPath": "C:\\Users\\lzini\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lzini\\Lagash\\LU\\clases\\clase-2\\obj\\",
+        "outputPath": "C:\\Users\\lzini\\Lagash\\LU\\clases\\clase-3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

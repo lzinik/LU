@@ -76,7 +76,11 @@ namespace clase_2
         }
 
         static int Division(int a, int b){
-            
+            if (b == 0)
+                SystemException;
+            else if (b == 1)
+                return a;
+            else
             // Iteracion
             //int div = 0;
             //for (int i = b; i < a; i+=b)
@@ -97,8 +101,8 @@ namespace clase_2
             // SIN USAR EL OPERADOR /
             // Un hongo -> con una iteracion
             // Dos hongos -> recursivo
-
-            Console.WriteLine(5 / 2);
+            var divide = Division(5, 2);
+            Console.WriteLine(divide);
 
 
             int sueldo = 101;

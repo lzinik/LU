@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\lzini\\Lagash\\LU\\clases\\semana-1\\clase-3\\clase-3.csproj": {}
+    "C:\\Users\\lzini\\Lagash\\LU\\clases\\semana-1\\repaso\\repaso.csproj": {}
   },
   "projects": {
-    "c:\\Users\\lzini\\Lagash\\LU\\clases\\semana-1\\clase-3\\clase-3.csproj": {
+    "C:\\Users\\lzini\\Lagash\\LU\\clases\\semana-1\\repaso\\repaso.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\lzini\\Lagash\\LU\\clases\\semana-1\\clase-3\\clase-3.csproj",
-        "projectName": "clase-3",
-        "projectPath": "c:\\Users\\lzini\\Lagash\\LU\\clases\\semana-1\\clase-3\\clase-3.csproj",
+        "projectUniqueName": "C:\\Users\\lzini\\Lagash\\LU\\clases\\semana-1\\repaso\\repaso.csproj",
+        "projectName": "repaso",
+        "projectPath": "C:\\Users\\lzini\\Lagash\\LU\\clases\\semana-1\\repaso\\repaso.csproj",
         "packagesPath": "C:\\Users\\lzini\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\lzini\\Lagash\\LU\\clases\\semana-1\\clase-3\\obj\\",
+        "outputPath": "C:\\Users\\lzini\\Lagash\\LU\\clases\\semana-1\\repaso\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

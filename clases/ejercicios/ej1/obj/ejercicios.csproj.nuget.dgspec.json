@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\lzini\\Lagash\\LU\\clases\\semana-1\\clase-3\\clase-3.csproj": {}
+    "C:\\Users\\lzini\\Lagash\\LU\\clases\\ejercicios\\ejercicios.csproj": {}
   },
   "projects": {
-    "c:\\Users\\lzini\\Lagash\\LU\\clases\\semana-1\\clase-3\\clase-3.csproj": {
+    "C:\\Users\\lzini\\Lagash\\LU\\clases\\ejercicios\\ejercicios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\lzini\\Lagash\\LU\\clases\\semana-1\\clase-3\\clase-3.csproj",
-        "projectName": "clase-3",
-        "projectPath": "c:\\Users\\lzini\\Lagash\\LU\\clases\\semana-1\\clase-3\\clase-3.csproj",
+        "projectUniqueName": "C:\\Users\\lzini\\Lagash\\LU\\clases\\ejercicios\\ejercicios.csproj",
+        "projectName": "ejercicios",
+        "projectPath": "C:\\Users\\lzini\\Lagash\\LU\\clases\\ejercicios\\ejercicios.csproj",
         "packagesPath": "C:\\Users\\lzini\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\lzini\\Lagash\\LU\\clases\\semana-1\\clase-3\\obj\\",
+        "outputPath": "C:\\Users\\lzini\\Lagash\\LU\\clases\\ejercicios\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

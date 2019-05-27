@@ -1,0 +1,11 @@
+c:\Users\lzini\Lagash\LU\clases\ejercicios\obj\Debug\netcoreapp2.2\ejercicios.csprojAssemblyReference.cache
+c:\Users\lzini\Lagash\LU\clases\ejercicios\obj\Debug\netcoreapp2.2\ejercicios.csproj.CoreCompileInputs.cache
+c:\Users\lzini\Lagash\LU\clases\ejercicios\obj\Debug\netcoreapp2.2\ejercicios.AssemblyInfoInputs.cache
+c:\Users\lzini\Lagash\LU\clases\ejercicios\obj\Debug\netcoreapp2.2\ejercicios.AssemblyInfo.cs
+C:\Users\lzini\Lagash\LU\clases\ejercicios\bin\Debug\netcoreapp2.2\ejercicios.deps.json
+C:\Users\lzini\Lagash\LU\clases\ejercicios\bin\Debug\netcoreapp2.2\ejercicios.runtimeconfig.json
+C:\Users\lzini\Lagash\LU\clases\ejercicios\bin\Debug\netcoreapp2.2\ejercicios.runtimeconfig.dev.json
+c:\Users\lzini\Lagash\LU\clases\ejercicios\bin\Debug\netcoreapp2.2\ejercicios.dll
+c:\Users\lzini\Lagash\LU\clases\ejercicios\bin\Debug\netcoreapp2.2\ejercicios.pdb
+c:\Users\lzini\Lagash\LU\clases\ejercicios\obj\Debug\netcoreapp2.2\ejercicios.dll
+c:\Users\lzini\Lagash\LU\clases\ejercicios\obj\Debug\netcoreapp2.2\ejercicios.pdb

@@ -6,7 +6,7 @@ namespace clase_2
     {
         static int DivisionRecursiva(int a, int b){
             if (b == 0)
-                SystemException;
+                throw new DivideByZeroException();
             else if (b == 1)
                 return a;
             else

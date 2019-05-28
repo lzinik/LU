@@ -8,52 +8,35 @@ namespace ej2
     class Archivo
     {
         private const string nombreArchivo = "Agenda.txt";
-        public void LeerArchivo()
+        public void LeerArchivo(Dictionary<string, Contacto> agenda)
         {
-            Dictionary<string, Persona> agenda = new Dictionary<string, Persona>();
-            Persona p1 = new Persona("Martin", "15-5580-7442");
-            Persona p2 = new Persona("Tomas", "15-4782-1535");
-            Persona p3 = new Persona("Damian", "15-3535-2691");
-
-            agenda.Add(p1.Nombre, p1);
-            
             try
             {
-                StreamReader sr = new StreamReader(nombreArchivo);                
-                string line;
+                // StreamReader sr = new StreamReader(nombreArchivo);
+                string[] lineas = File.ReadAllLines(nombreArchivo);
                 
-                int count = 0;
-
-                while ( ( line = sr.ReadLine() ) != null)
+                foreach(string linea in lineas)
                 {
-                    string[] splitLine = line.Split(':');
-                    
-                    Persona p = new Persona($"{splitLine[0]}", $"{splitLine[1]}");
-                    agenda.Add(p.Nombre, p);
-
-                    Console.WriteLine(line);
-                    line = sr.ReadLine();
-
-                    count ++;
+                    string[] splitLine = linea.Split(':');
+                    Contacto c = new Contacto($"{splitLine[0]}", $"{splitLine[1]}");
+                    agenda.Add(c.Nombre, c);
                 }
-                
-                sr.Close();
-                Console.ReadLine();
             } 
             catch (Exception e)
             {
                 Console.WriteLine("Error al leer el archivo: " + e.Message);
             }
-            finally
-            {
-                Console.ReadKey();
-            }
         }
 
-        public void EscribirArchivo()
+        static public void EscribirArchivo(Dictionary<string, Contacto> agenda)
         {
             try
             {
+                foreach(Contacto contacto in agenda)
+                {
+                    string linea = string.Format("Nombre: {0} Telefono{1}", contacto.Nombre, contacto.Telefono);
+                }
+                
                 
 
                 // File.AppendAllText(@fileName, $"{nombre}" + $"{telefono}" + Environment.NewLine);

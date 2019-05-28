@@ -247,7 +247,7 @@ namespace clase_2
             // Hagan un programa que escriba en un archivo de texto
             // un listado de personas y telefonos
 
-            // El programa tiene que tambien poder leer el archivo y cargarlo en una coleccion
+            // El programa tiene que tambien poder leer el archivo y cargarlo en una coleccion.
             // Si modifico el archivo, tengo que poder leerlo nuevamente.
 
         }

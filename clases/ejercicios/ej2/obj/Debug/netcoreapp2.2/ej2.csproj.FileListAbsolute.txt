@@ -1,0 +1,11 @@
+C:\Users\lzini\Lagash\LU\clases\ejercicios\ej2\bin\Debug\netcoreapp2.2\ej2.deps.json
+C:\Users\lzini\Lagash\LU\clases\ejercicios\ej2\bin\Debug\netcoreapp2.2\ej2.runtimeconfig.json
+C:\Users\lzini\Lagash\LU\clases\ejercicios\ej2\bin\Debug\netcoreapp2.2\ej2.runtimeconfig.dev.json
+C:\Users\lzini\Lagash\LU\clases\ejercicios\ej2\bin\Debug\netcoreapp2.2\ej2.dll
+C:\Users\lzini\Lagash\LU\clases\ejercicios\ej2\bin\Debug\netcoreapp2.2\ej2.pdb
+C:\Users\lzini\Lagash\LU\clases\ejercicios\ej2\obj\Debug\netcoreapp2.2\ej2.csprojAssemblyReference.cache
+C:\Users\lzini\Lagash\LU\clases\ejercicios\ej2\obj\Debug\netcoreapp2.2\ej2.csproj.CoreCompileInputs.cache
+C:\Users\lzini\Lagash\LU\clases\ejercicios\ej2\obj\Debug\netcoreapp2.2\ej2.AssemblyInfoInputs.cache
+C:\Users\lzini\Lagash\LU\clases\ejercicios\ej2\obj\Debug\netcoreapp2.2\ej2.AssemblyInfo.cs
+C:\Users\lzini\Lagash\LU\clases\ejercicios\ej2\obj\Debug\netcoreapp2.2\ej2.dll
+C:\Users\lzini\Lagash\LU\clases\ejercicios\ej2\obj\Debug\netcoreapp2.2\ej2.pdb

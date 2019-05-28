@@ -1,25 +1,27 @@
 ﻿using System;
 
-namespace ej1
+namespace ejercicio1
 {
     class Program
     {
-        static int DivisionRecursiva(int dividendo, int divisor){
-            if (divisor == 0)
+        static int DivisionRecursiva(int a, int b){
+            if (b == 0)
                 throw new DivideByZeroException();
-            else if (divisor == 1)
-                return dividendo;
+            else if (b == 1)
+                return a;
             else
-                return (dividendo >= divisor) ? DivisionRecursiva(dividendo-divisor, divisor) + 1 : 0;
+            // Recursion
+                return (a >= b) ? DivisionRecursiva(a-b, b) + 1 : 0;
         }
-        static int DivisionIterativa(int dividendo, int divisor){
-            if (divisor == 0)
+        static int DivisionIterativa(int a, int b){
+            if (b == 0)
                 throw new DivideByZeroException();
-            else if (divisor == 1)
-                return dividendo;
+            else if (b == 1)
+                return a;
             else {
+                // Iteracion
                 int div = 0;
-                for (int i = divisor; i <= dividendo; i+=divisor)
+                for (int i = b; i <= a; i+=b)
                 {
                     div++;
                 }
@@ -43,7 +45,7 @@ namespace ej1
             Console.WriteLine("Division iterativa: " + divideIte2);
             var divideIte3 = DivisionIterativa(5, 6);
             Console.WriteLine("Division iterativa: " + divideIte3);
-            var divideIte4 = DivisionIterativa(5, 1);
+            var divideIte4 = DivisionIterativa(5, 0);
             Console.WriteLine("Division iterativa: " + divideIte4);
 
             // Pruebas DivisionRecursiva

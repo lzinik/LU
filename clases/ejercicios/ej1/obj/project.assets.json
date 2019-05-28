@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lzini\\Lagash\\LU\\clases\\ejercicios\\ejercicios.csproj",
-      "projectName": "ejercicios",
-      "projectPath": "C:\\Users\\lzini\\Lagash\\LU\\clases\\ejercicios\\ejercicios.csproj",
+      "projectUniqueName": "C:\\Users\\lzini\\Lagash\\LU\\clases\\ejercicios\\ej1\\ej1.csproj",
+      "projectName": "ej1",
+      "projectPath": "C:\\Users\\lzini\\Lagash\\LU\\clases\\ejercicios\\ej1\\ej1.csproj",
       "packagesPath": "C:\\Users\\lzini\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lzini\\Lagash\\LU\\clases\\ejercicios\\obj\\",
+      "outputPath": "C:\\Users\\lzini\\Lagash\\LU\\clases\\ejercicios\\ej1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

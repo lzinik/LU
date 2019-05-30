@@ -15,6 +15,7 @@ namespace PersonValidator
             //     return false;
             
             // https://docs.microsoft.com/en-us/dotnet/api/system.globalization.textinfo.totitlecase?view=netframework-4.8
+
             TextInfo myTI = new CultureInfo("en-US",false).TextInfo;
 
             return fullName == myTI.ToTitleCase( fullName );
@@ -59,8 +60,11 @@ namespace PersonValidator
                         emails.Add(People[j].Email);
                 }
                 dic.Add(nameLength, emails.ToArray());
+                nameLength++;
             }
             return dic;
         }
+        // var Func=validation.compile();
+        // return func(person)   
     }
 }

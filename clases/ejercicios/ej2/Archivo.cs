@@ -30,45 +30,36 @@ namespace ej2
 
         static public void EscribirArchivo(Dictionary<string, Contacto> agenda)
         {
-            try
+            using (StreamWriter sw = new StreamWriter(nombreArchivo, true))
             {
-                foreach(Contacto contacto in agenda)
+                try
                 {
-                    string linea = string.Format("Nombre: {0} Telefono{1}", contacto.Nombre, contacto.Telefono);
+                    foreach(KeyValuePair<string, Contacto> contacto in agenda)
+                    {
+                        string linea = string.Format("Nombre: {0} Telefono{1}", contacto.Value.Nombre, contacto.Value.Telefono);
+                        sw.WriteLine(linea);
+                    }
                 }
-                
-                
-
-                // File.AppendAllText(@fileName, $"{nombre}" + $"{telefono}" + Environment.NewLine);
-
-                Console.WriteLine("Luciano Zinik");
-
-
-
-                //         Console.WriteLine("Escriba el nombre a agendar");
-                //         String nombre = Console.ReadLine();
-                //         sw.Write(nombre);
-
-                //         Console.WriteLine("Escriba el telefono");
-                //         String telefono = Console.ReadLine();
-                //         dic.Add(nombre, telefono);
-                //         sw.Write(telefono);
-                //     }
-                //     sw.Close();
-                // }
-            }
-            catch(Exception e)
-            {
-                Console.WriteLine("Exception: " + e.Message);
-            }
-            finally 
-            {
-                Console.WriteLine("Executing finally block.");
+                catch(Exception e)
+                {
+                    Console.WriteLine("Exception: " + e.Message);
+                }
             }
         }
-        public void ModificarArchivo()
+        public void ModificarArchivo(Contacto contacto, string cambio)
         {
-            var dic = new Dictionary<string, string>();            
+            StreamReader reader = new StreamReader(nombreArchivo);
+            string input = reader.ReadToEnd();
+
+            using (StreamWriter writer = new StreamWriter(nombreArchivo, true))
+            {
+                {
+                    if (contacto.Nombre != null)
+                    string output = input.Replace(word, cambio);
+                    writer.Write(output);                     
+                }
+                writer.Close();
+            }
         }
     }
 }

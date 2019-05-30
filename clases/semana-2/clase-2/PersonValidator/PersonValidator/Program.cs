@@ -8,8 +8,15 @@ namespace PersonValidator
         static void Main(string[] args)
         {
             var validatorTest = new ValidatorTest();
+
             var solucionBasic = new SolucionBasic();
             validatorTest.Validate(solucionBasic);
+
+            var solucionAdvanced = new SolucionAdvanced();
+            validatorTest.Validate(solucionAdvanced);
+
+            var solucionExpert = new SolucionExpert();
+            validatorTest.Validate(solucionExpert);
         }
     }
 }

@@ -43,18 +43,18 @@ namespace PersonValidator
 
         public List<Person> GetFiltered(string name, int age, string email)
         {
-            List<Person> PeopleFiltered = People;
+            List<Person> FilteredPeople = People;
 
-            if(!(name == null || name == ""))
-                PeopleFiltered = PeopleFiltered.FindAll( p => p.Name == name);
+            if(name != null && name != "" )
+                FilteredPeople = FilteredPeople.FindAll( p => p.Name == name);
             
             if (age != 0)
-                PeopleFiltered = PeopleFiltered.FindAll( p => p.Age == age);
+                FilteredPeople = FilteredPeople.FindAll( p => p.Age == age);
             
-            if (!(email == null || email == ""))
-                PeopleFiltered = PeopleFiltered.FindAll( p => p.Email.Contains(email));
+            if (email != null && email != "")
+                FilteredPeople = FilteredPeople.FindAll( p => p.Email.Contains(email));
                 
-            return PeopleFiltered;
+            return FilteredPeople;
         }
 
         public Person GetPerson(int Id)

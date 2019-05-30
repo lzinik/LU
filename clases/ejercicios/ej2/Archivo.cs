@@ -46,20 +46,24 @@ namespace ej2
                 }
             }
         }
-        public void ModificarArchivo(Contacto contacto, string cambio)
+        public void ModificarArchivo(Dictionary<string, Contacto> agenda)
         {
-            StreamReader reader = new StreamReader(nombreArchivo);
-            string input = reader.ReadToEnd();
+            // Console.WriteLine("Ingrese el nombre del contacto a actualizar:");
+            // StreamReader reader = new StreamReader(nombreArchivo);
+            // string name = reader.ReadToEnd();
 
-            using (StreamWriter writer = new StreamWriter(nombreArchivo, true))
-            {
-                {
-                    if (contacto.Nombre != null)
-                    string output = input.Replace(word, cambio);
-                    writer.Write(output);                     
-                }
-                writer.Close();
-            }
+            // using (StreamWriter writer = new StreamWriter(nombreArchivo, true))
+            // {
+            //     {
+            //         Console.WriteLine("Elija 1 para cambiar el nombre, y 2 para cambiar el telefono");
+            //         StreamReader reader2 = new StreamReader(nombreArchivo);
+                    
+                    // if (contacto.Nombre != null)
+                    //     string output = input.Replace(word, cambio);
+                    //     writer.Write(output);                     
+                // }
+                // writer.Close();
+            //}
         }
     }
 }

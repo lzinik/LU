@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace PersonValidator
 {
-    public abstract class SolucionBasic : IPersonRepositoryBasic
+    public class SolucionBasic : IPersonRepositoryBasic
     {
         
         public List<Person> People { get; set; }

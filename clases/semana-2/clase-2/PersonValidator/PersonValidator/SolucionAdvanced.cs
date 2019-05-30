@@ -1,4 +1,6 @@
 using System;
+using System.Linq;
+using System.Globalization;
 using System.Collections.Generic;
 using PersonRepository.Entities;
 using PersonRepository.Interfaces;
@@ -7,46 +9,58 @@ namespace PersonValidator
 {
     public class SolucionAdvanced : SolucionBasic, IPersonRepositoryAdvanced
     {
-        public List<Person> People { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-
-        public void Add(Person person)
+        public bool isCapitalized(string fullName)
         {
-            throw new NotImplementedException();
-        }
+            // if (fullName == fullName.ToUpper())
+            //     return false;
+            
+            // https://docs.microsoft.com/en-us/dotnet/api/system.globalization.textinfo.totitlecase?view=netframework-4.8
+            TextInfo myTI = new CultureInfo("en-US",false).TextInfo;
 
-        public void Delete(int id)
-        {
-            throw new NotImplementedException();
+            return fullName == myTI.ToTitleCase( fullName );
         }
-
-        public int GetCountRangeAges(int min, int max)
-        {
-            throw new NotImplementedException();
-        }
-
-        public List<Person> GetFiltered(string name, int age, string email)
-        {
-            throw new NotImplementedException();
-        }
-
         public int[] GetNotCapitalizedIds()
         {
-            throw new NotImplementedException();
+            List<int> notCapitalizedIds = new List<int>();
+
+            foreach(Person p in People)
+            {
+                if(!isCapitalized(p.Name))
+                    notCapitalizedIds.Add(p.Id);
+
+            }
+            return notCapitalizedIds.ToArray();
         }
 
-        public Person GetPerson(int Id)
+        public int getPersonNameLength (Person p){
+            return p.Name.Split(' ', StringSplitOptions.RemoveEmptyEntries).Length;
+        }
+        public int longestName (List<Person> People)
         {
-            throw new NotImplementedException();
+            int lName = 0;
+            for (int i = 0; i < People.Count(); i++)
+            {
+                lName = (lName > getPersonNameLength(People[i])) ? lName : getPersonNameLength(People[i]);
+            }
+            return lName;
         }
-
         public Dictionary<int, string[]> GroupEmailByNameCount()
         {
-            throw new NotImplementedException();
-        }
+            var dic = new Dictionary<int, string[]>();
+            int nameLength = 1;
 
-        public void Update(Person person)
-        {
-            throw new NotImplementedException();
+            while (nameLength <= longestName(People))
+            {
+                List<string> emails = new List<string>();
+                
+                for(int j = 0; j < People.Count(); j++)
+                {
+                    if (nameLength == getPersonNameLength(People[j]) )
+                        emails.Add(People[j].Email);
+                }
+                dic.Add(nameLength, emails.ToArray());
+            }
+            return dic;
         }
     }
 }

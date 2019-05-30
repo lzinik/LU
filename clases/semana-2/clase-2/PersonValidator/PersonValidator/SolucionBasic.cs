@@ -6,8 +6,9 @@ using System.Linq;
 
 namespace PersonValidator
 {
-    class Solucion : IPersonRepositoryBasic
+    public abstract class SolucionBasic : IPersonRepositoryBasic
     {
+        
         public List<Person> People { get; set; }
 
         public bool emailValido (string email)
@@ -36,8 +37,7 @@ namespace PersonValidator
 
         public int GetCountRangeAges(int min, int max)
         {
-            List<Person> PersonasEnRangoDeEdades = 
-                        People.FindAll( p => (( min <= p.Age ) && ( p.Age <= max )) );
+            List<Person> PersonasEnRangoDeEdades = People.FindAll( p => (( min <= p.Age ) && ( p.Age <= max )) );
             return PersonasEnRangoDeEdades.Count();
         }
 
@@ -46,11 +46,13 @@ namespace PersonValidator
             List<Person> PeopleFiltered = People;
 
             if(!(name == null || name == ""))
-                PeopleFiltered.Where( p => p.Name == name);
-            else if (age != 0)
-                PeopleFiltered.Where( p => p.Age == age);
-            else if (email == null || email == "")
-                PeopleFiltered.Where( p => p.Email.Contains(email));
+                PeopleFiltered = PeopleFiltered.FindAll( p => p.Name == name);
+            
+            if (age != 0)
+                PeopleFiltered = PeopleFiltered.FindAll( p => p.Age == age);
+            
+            if (!(email == null || email == ""))
+                PeopleFiltered = PeopleFiltered.FindAll( p => p.Email.Contains(email));
                 
             return PeopleFiltered;
         }
@@ -65,6 +67,7 @@ namespace PersonValidator
             Person pToUpdate = People.Find(p => p.Id == person.Id);
             if (pToUpdate != null && person.Age > 0 && emailValido(person.Email))
             {
+                pToUpdate.Name = person.Name;
                 pToUpdate.Age = person.Age;
                 pToUpdate.Email = person.Email;
             }

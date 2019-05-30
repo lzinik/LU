@@ -7,9 +7,9 @@ namespace PersonValidator
     {
         static void Main(string[] args)
         {
-            var solucion = new Solucion();
+            var solucion = new SolucionBasic();
             var validatorTest = new ValidatorTest();
-            validatorTest.Validate(solucion);
+            validatorTest.Validate(SolucionBasic);
         }
     }
 }

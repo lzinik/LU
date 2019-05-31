@@ -24,9 +24,11 @@ namespace ej2
             Contacto c3 = new Contacto("Damian", "15-3535-2691");
 
             agenda.Add(c1.Nombre, c1);
+            agenda.Add(c2.Nombre, c2);
+            agenda.Add(c3.Nombre, c3);
 
             Archivo archivo = new Archivo();
-            archivo.LeerArchivo(agenda);
+            archivo.EscribirArchivo(agenda);
             // archivo.EscribirArchivo();
             // archivo.LeerArchivo();
             // archivo.ModificarArchivo();

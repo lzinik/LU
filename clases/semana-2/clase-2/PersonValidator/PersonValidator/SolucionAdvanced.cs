@@ -64,7 +64,5 @@ namespace PersonValidator
             }
             return dic;
         }
-        // var Func=validation.compile();
-        // return func(person)   
     }
 }

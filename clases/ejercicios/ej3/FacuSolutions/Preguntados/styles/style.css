@@ -1,0 +1,104 @@
+html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    background: rgb(1,79,190);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin: 0;
+}
+
+header {
+    height: 10%;
+    background: #131212;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    height: 82.5%;
+    text-align: center;
+}
+
+footer {
+    height: 7.5%;
+    width: 100%;
+    background: #131212;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+main > button {
+    font-size: 25px;
+    display: block;
+    margin: 40px auto;
+    padding: 4px 20px;
+    border-radius: 4px;
+    background: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    opacity: 0.9;
+    transition: 0.3s;
+}
+
+button:hover {
+    font-size: 35px;
+    background-color: rgb(236, 236, 236);
+    cursor: pointer;
+    opacity: 1;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.5), 0 17px 50px 0 rgba(0,0,0,0.5);
+}
+
+.green {
+    color: #4BB543;
+}
+
+.red {
+    color: #ff0033;
+}
+
+.gold {
+    color: #FFD700;
+    font-size: 35px;
+}
+
+.answerResult {
+    font-size: 45px;
+}
+
+#finalScore {
+    margin-top: 30px;
+}
+
+#category {
+    font-size: 35px;
+    margin: 40px 0 0 0;
+}
+
+#qa {
+    font-size: 60px;
+    margin: 0 auto;
+}
+
+#start {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+#start:hover {
+    cursor: pointer;
+    box-shadow: none;
+}

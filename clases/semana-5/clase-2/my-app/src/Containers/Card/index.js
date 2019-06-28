@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import Title from '../../Components/Title';
+import Title from '../../Components/Item';
 import Button from '../../Components/Button';
 import Description from '../../Components/Description';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -12,6 +12,7 @@ const Card = () => {
     const [icon2, setIcon2] = useState(faTrash);
     const [button1Val, setButton1Val] = useState('Editar');
     const [button2Val, setButton2Val] = useState('Eliminar');
+    const [id, setId] = useState(0);
 
     const handlePosClick = (e) => {
         // if(e.target.value === 'Editar') {
@@ -26,6 +27,13 @@ const Card = () => {
             setIcon2(faTimesCircle)
             setButton1Val("Guardar")
         }
+    }
+
+    const editItem = (e) => {
+        // e.target.value === 
+
+        setList([...list, element]);
+        setText('');
     }
 
 

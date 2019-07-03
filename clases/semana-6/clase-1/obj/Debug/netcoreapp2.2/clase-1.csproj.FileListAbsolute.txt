@@ -1,0 +1,14 @@
+C:\Users\lzini\Lagash\LU\clases\semana-6\clase-1\bin\Debug\netcoreapp2.2\clase-1.deps.json
+C:\Users\lzini\Lagash\LU\clases\semana-6\clase-1\bin\Debug\netcoreapp2.2\clase-1.runtimeconfig.json
+C:\Users\lzini\Lagash\LU\clases\semana-6\clase-1\bin\Debug\netcoreapp2.2\clase-1.runtimeconfig.dev.json
+C:\Users\lzini\Lagash\LU\clases\semana-6\clase-1\bin\Debug\netcoreapp2.2\clase-1.dll
+C:\Users\lzini\Lagash\LU\clases\semana-6\clase-1\bin\Debug\netcoreapp2.2\clase-1.pdb
+C:\Users\lzini\Lagash\LU\clases\semana-6\clase-1\obj\Debug\netcoreapp2.2\clase-1.csprojAssemblyReference.cache
+C:\Users\lzini\Lagash\LU\clases\semana-6\clase-1\obj\Debug\netcoreapp2.2\clase-1.csproj.CoreCompileInputs.cache
+C:\Users\lzini\Lagash\LU\clases\semana-6\clase-1\obj\Debug\netcoreapp2.2\clase-1.RazorAssemblyInfo.cache
+C:\Users\lzini\Lagash\LU\clases\semana-6\clase-1\obj\Debug\netcoreapp2.2\clase-1.RazorAssemblyInfo.cs
+C:\Users\lzini\Lagash\LU\clases\semana-6\clase-1\obj\Debug\netcoreapp2.2\clase-1.AssemblyInfoInputs.cache
+C:\Users\lzini\Lagash\LU\clases\semana-6\clase-1\obj\Debug\netcoreapp2.2\clase-1.AssemblyInfo.cs
+C:\Users\lzini\Lagash\LU\clases\semana-6\clase-1\obj\Debug\netcoreapp2.2\clase-1.RazorTargetAssemblyInfo.cache
+C:\Users\lzini\Lagash\LU\clases\semana-6\clase-1\obj\Debug\netcoreapp2.2\clase-1.dll
+C:\Users\lzini\Lagash\LU\clases\semana-6\clase-1\obj\Debug\netcoreapp2.2\clase-1.pdb

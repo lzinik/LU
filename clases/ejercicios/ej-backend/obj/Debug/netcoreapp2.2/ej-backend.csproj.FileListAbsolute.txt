@@ -1,0 +1,14 @@
+C:\Users\lzini\Lagash\LU\clases\ejercicios\ej-backend\bin\Debug\netcoreapp2.2\ej-backend.deps.json
+C:\Users\lzini\Lagash\LU\clases\ejercicios\ej-backend\bin\Debug\netcoreapp2.2\ej-backend.runtimeconfig.json
+C:\Users\lzini\Lagash\LU\clases\ejercicios\ej-backend\bin\Debug\netcoreapp2.2\ej-backend.runtimeconfig.dev.json
+C:\Users\lzini\Lagash\LU\clases\ejercicios\ej-backend\bin\Debug\netcoreapp2.2\ej-backend.dll
+C:\Users\lzini\Lagash\LU\clases\ejercicios\ej-backend\bin\Debug\netcoreapp2.2\ej-backend.pdb
+C:\Users\lzini\Lagash\LU\clases\ejercicios\ej-backend\obj\Debug\netcoreapp2.2\ej-backend.csprojAssemblyReference.cache
+C:\Users\lzini\Lagash\LU\clases\ejercicios\ej-backend\obj\Debug\netcoreapp2.2\ej-backend.csproj.CoreCompileInputs.cache
+C:\Users\lzini\Lagash\LU\clases\ejercicios\ej-backend\obj\Debug\netcoreapp2.2\ej-backend.RazorAssemblyInfo.cache
+C:\Users\lzini\Lagash\LU\clases\ejercicios\ej-backend\obj\Debug\netcoreapp2.2\ej-backend.RazorAssemblyInfo.cs
+C:\Users\lzini\Lagash\LU\clases\ejercicios\ej-backend\obj\Debug\netcoreapp2.2\ej-backend.AssemblyInfoInputs.cache
+C:\Users\lzini\Lagash\LU\clases\ejercicios\ej-backend\obj\Debug\netcoreapp2.2\ej-backend.AssemblyInfo.cs
+C:\Users\lzini\Lagash\LU\clases\ejercicios\ej-backend\obj\Debug\netcoreapp2.2\ej-backend.RazorTargetAssemblyInfo.cache
+C:\Users\lzini\Lagash\LU\clases\ejercicios\ej-backend\obj\Debug\netcoreapp2.2\ej-backend.dll
+C:\Users\lzini\Lagash\LU\clases\ejercicios\ej-backend\obj\Debug\netcoreapp2.2\ej-backend.pdb
